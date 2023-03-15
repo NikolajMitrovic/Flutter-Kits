@@ -1,0 +1,27 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_feather_icons/flutter_feather_icons.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:ultimate_bundle/flutima/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/belila/src/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/belila/src/helpers/screens.dart';
+import 'package:ultimate_bundle/premium/belila/src/helpers/toast.dart';
+import 'package:ultimate_bundle/premium/belila/src/models/order_detail_model.dart';
+import 'package:ultimate_bundle/premium/belila/src/pages/track_delivery/track_delivery_page.dart';
+import 'package:ultimate_bundle/premium/belila/src/widgets/custom_app_bar.dart';
+import 'package:ultimate_bundle/premium/belila/src/widgets/custom_elevated_button.dart';
+import 'package:ultimate_bundle/premium/belila/src/widgets/custom_outlined_button.dart';
+
+part 'screens/order_detail_screen.dart';
+part 'widgets/build_info_order.dart';
+part 'widgets/cancel_button.dart';
+part 'widgets/confirm_order_button.dart';
+part 'widgets/pay_button.dart';
+part 'widgets/refund_button.dart';
+part 'widgets/build_item_order.dart';
+part 'widgets/build_product_order_card.dart';
+part 'widgets/build_delivery_detail.dart';
+part 'widgets/build_payment_information.dart';

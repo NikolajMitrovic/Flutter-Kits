@@ -1,0 +1,24 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:octo_image/octo_image.dart';
+import 'package:provider/provider.dart';
+import 'package:ultimate_bundle/flutima/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/coffiy/src/helpers/colors.dart';
+import 'package:ultimate_bundle/premium/coffiy/src/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/coffiy/src/helpers/toast.dart';
+import 'package:ultimate_bundle/premium/coffiy/src/models/coffee_model.dart';
+import 'package:ultimate_bundle/premium/coffiy/src/widgets/custom_app_bar.dart';
+import 'package:ultimate_bundle/premium/coffiy/src/widgets/custom_elevated_button.dart';
+import 'package:ultimate_bundle/providers/theme_provider.dart';
+
+part 'screens/coffee_screen.dart';
+part 'widgets/build_ice.dart';
+part 'widgets/build_image.dart';
+part 'widgets/build_quantity.dart';
+part 'widgets/build_size.dart';
+part 'widgets/build_type.dart';

@@ -1,0 +1,20 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_feather_icons/flutter_feather_icons.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
+import 'package:get/get.dart';
+import 'package:octo_image/octo_image.dart';
+import 'package:smooth_star_rating/smooth_star_rating.dart';
+import 'package:ultimate_bundle/flutima/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/bellcommerce/src/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/bellcommerce/src/models/category_model.dart';
+import 'package:ultimate_bundle/premium/bellcommerce/src/models/product_model.dart';
+import 'package:ultimate_bundle/premium/bellcommerce/src/widgets/custom_app_bar.dart';
+
+part 'screens/home_screen.dart';
+part 'widgets/build_swiper.dart';
+part 'widgets/build_category_list.dart';
+part 'widgets/category_circle_widget.dart';
+part 'widgets/build_product_list.dart';
+part 'widgets/product_card.dart';

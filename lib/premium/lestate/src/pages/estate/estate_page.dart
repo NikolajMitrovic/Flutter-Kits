@@ -1,0 +1,26 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:intl/intl.dart';
+import 'package:readmore/readmore.dart';
+import 'package:ultimate_bundle/flutima/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/lestate/src/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/lestate/src/models/chat_model.dart';
+import 'package:ultimate_bundle/premium/lestate/src/models/estate_model.dart';
+import 'package:ultimate_bundle/premium/lestate/src/models/user_model.dart';
+import 'package:ultimate_bundle/premium/lestate/src/widgets/custom_elevated_button.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+part 'screens/estate_screen.dart';
+part 'widgets/build_app_bar.dart';
+part 'widgets/build_description.dart';
+part 'widgets/build_feature.dart';
+part 'widgets/build_footer.dart';
+part 'widgets/build_location.dart';
+part 'widgets/build_name_and_features.dart';
+part 'widgets/build_owner_list_tile.dart';
+part 'widgets/build_photo_header.dart';

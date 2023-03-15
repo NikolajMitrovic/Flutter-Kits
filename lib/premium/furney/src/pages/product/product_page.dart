@@ -1,0 +1,30 @@
+import 'package:auto_size_text/auto_size_text.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:smooth_star_rating/smooth_star_rating.dart';
+import 'package:ultimate_bundle/premium/furney/src/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/furney/src/helpers/screens.dart';
+import 'package:ultimate_bundle/premium/furney/src/helpers/snack_toast.dart';
+import 'package:ultimate_bundle/premium/furney/src/list_item/filter_list.dart';
+import 'package:ultimate_bundle/premium/furney/src/list_item/product_list.dart';
+import 'package:ultimate_bundle/premium/furney/src/models/product_model.dart';
+import 'package:ultimate_bundle/premium/furney/src/widgets/custom_app_bar.dart';
+import 'package:ultimate_bundle/premium/furney/src/widgets/custom_dots_indicator.dart';
+import 'package:ultimate_bundle/premium/furney/src/widgets/custom_elevated_button.dart';
+import 'package:ultimate_bundle/premium/furney/src/widgets/custom_network_image.dart';
+import 'package:ultimate_bundle/premium/furney/src/widgets/product_card.dart';
+
+part 'screens/all_product_screen.dart';
+part 'screens/product_screen.dart';
+part 'widgets/build_appbar.dart';
+part 'widgets/build_colors.dart';
+part 'widgets/build_description.dart';
+part 'widgets/build_name.dart';
+part 'widgets/build_price_and_rating.dart';
+part 'widgets/build_reviews.dart';
+part 'widgets/build_similiar_product_list.dart';

@@ -1,0 +1,146 @@
+class RoomModel {
+  final String? name;
+  final String? place;
+  final String? price;
+  final String? height;
+  final String? width;
+  final String? bath;
+  final String? type;
+  final String? rating;
+  final String? image;
+  RoomModel(
+      {this.bath,
+      this.height,
+      this.name,
+      this.place,
+      this.price,
+      this.type,
+      this.width,
+      this.rating,
+      this.image});
+}
+
+List<RoomModel> roomList = [
+  RoomModel(
+    name: 'Luxurious Single Family House',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/f0/79/0d/f0790d36fd4324127650dbcb9a8314ac.jpg',
+  ),
+  RoomModel(
+    name: 'Beautiful Studio Central Park Mall',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/63/9a/ad/639aad99778148e7e0e5bddfb1ee2317.jpg',
+  ),
+  RoomModel(
+    name: 'Modern Scandinavian Apartment',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/65/87/93/658793a3ae3ff901c724bd457dcc69c7.jpg',
+  ),
+  RoomModel(
+    name: '2 BR Spacious',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/02/82/cb/0282cb9909e3048fb0643ec4c9238602.jpg',
+  ),
+  RoomModel(
+    name: 'Senopati House',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/8f/c6/f1/8fc6f17d246ea8aef4c6093d81a24b98.jpg',
+  ),
+  RoomModel(
+    name: 'A Bohemian-style New Condo',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/b5/5a/11/b55a119eb80ad6fbd19cb95ccd8493a8.jpg',
+  ),
+  RoomModel(
+    name: 'Cozy & Hygienic Sudirman',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image:
+        'https://i.pinimg.com/564x/66/6d/bd/666dbd2b5cd964650160d8bc04dd75ab.jpg',
+  ),
+  RoomModel(
+    name: 'Offers RoomModel Berjaya Times Square',
+    place: 'Kuala Lumpur, Malaysia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/75/5f/2e/755f2ec3f3c9e6c36b8d2de4110f3b95.jpg',
+  ),
+  RoomModel(
+    name: 'Thamrin Residence',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/74/af/aa/74afaa1d0f255d79c13d9cccf2e7e4f8.jpg',
+  ),
+  RoomModel(
+    name: 'Mega Kuningan Bellagio',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/7c/bd/9e/7cbd9ef4b0aaad94ea4fd3a1907c70ba.jpg',
+  ),
+  RoomModel(
+    name: 'ZB ATIL Zook Home 9',
+    place: 'Jakarta, Indonesia',
+    price: '30',
+    bath: '2',
+    height: '12.5',
+    width: '18.5',
+    type: 'Family',
+    rating: '4.5',
+    image: 'https://i.pinimg.com/564x/1c/a9/f1/1ca9f1555a68d85082d63e51ea45485e.jpg',
+  ),
+];

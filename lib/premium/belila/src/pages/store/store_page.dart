@@ -1,0 +1,25 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
+import 'package:timeago/timeago.dart' as timeago;
+import 'package:ultimate_bundle/flutima/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/belila/src/helpers/colors.dart';
+import 'package:ultimate_bundle/premium/belila/src/helpers/constants.dart';
+import 'package:ultimate_bundle/premium/belila/src/models/product_model.dart';
+import 'package:ultimate_bundle/premium/belila/src/models/review_store_model.dart';
+import 'package:ultimate_bundle/premium/belila/src/models/store_detail_model.dart';
+import 'package:ultimate_bundle/premium/belila/src/pages/search_product/search_page.dart';
+import 'package:ultimate_bundle/premium/belila/src/widgets/custom_app_bar.dart';
+import 'package:ultimate_bundle/premium/belila/src/widgets/custom_network_image.dart';
+import 'package:ultimate_bundle/premium/belila/src/widgets/custom_star_rating.dart';
+import 'package:ultimate_bundle/providers/theme_provider.dart';
+
+part 'screens/store_screen.dart';
+part 'tab_bar/store_product_tab.dart';
+part 'tab_bar/store_review_tab.dart';
+part 'widgets/build_review_card.dart';
+part 'widgets/product_card.dart';
